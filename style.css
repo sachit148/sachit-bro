@@ -1,0 +1,48 @@
+
+.header{
+    display: flex;
+    justify-content: flex-start;
+    background-color: azure;
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+}
+.logo {
+    margin-right: 40%;
+    cursor:pointer;
+}
+.nav{
+    display: flex;
+    justify-content: flex-start;
+}
+.nav li{
+    margin-right: 40px;
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.nav-1{
+    display: flex;
+    justify-content:space-around;
+}
+.nav-1 li{
+    margin-right: 40px;
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.product-card{
+    margin: 40px;
+
+} 
+.product-image{
+    width: 200px;
+    height:auto;
+}
